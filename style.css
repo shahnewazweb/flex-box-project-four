@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+}
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-content {
+  background-color: #3295a8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.item {
+  flex-basis: 25%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+.one {
+  background-color: #9a32a8;
+}
+.two {
+  background-color: #a83232;
+}
+.three {
+  background-color: #9a32a8;
+}
+.four {
+  background-color: #a83232;
+}
+.five {
+  background-color: #9a32a8;
+}
+.six {
+  background-color: #a83232;
+}
+.seven {
+  background-color: #9a32a8;
+}
+.eight {
+  background-color: #a83232;
+}
+@media (max-width: 800px) {
+  .item {
+  flex-basis: 40%;
+}
+}
